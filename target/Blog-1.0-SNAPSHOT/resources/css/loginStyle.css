@@ -1,0 +1,65 @@
+body{
+    background-image: url("/resources/img/background2.jpg");
+}
+.login-form{
+    background-color: crimson;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    margin-top: 120px;
+    opacity: 0.9;
+}
+
+.input-group{
+    width: 440px;
+    height: 35px;
+    border-radius: 5px;
+    /*margin-left: 50px;*/
+    text-align: center;
+    margin-top: 8px;
+    text-align: center;
+    float: right;
+}
+
+.logIn{
+    background-color: mediumorchid;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: aliceblue;
+    border: none;
+}
+.logIn:hover{
+    background-color: hotpink;
+}
+
+.registration-text{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: default;
+}
+.icon{
+    float: left;
+}
+.input{
+    width: 490px;
+    height: 40px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+.fa-lock{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.fa-sign-in{
+    margin-top: 10px;
+    margin-left: 12px;
+}

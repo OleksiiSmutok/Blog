@@ -1,0 +1,95 @@
+body{
+    background-image: url("/resources/img/background2.jpg");
+}
+.read-home-panel{
+    width: 300px;
+    height: 635px;
+    background-color: crimson;
+    border-radius: 2px;
+    margin-left: 1%;
+    margin-right: 100px;
+    float: left;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+.edit-article {
+    width: 900px;
+    height: 635px;
+    background-color: crimson;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.text{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+#logout2{
+    margin-top: 10px;
+    margin-left: 1%;
+}
+#home2{
+    margin-top: 40%;
+    margin-left: 1%;
+}
+.edit-user{
+    width: 700px;
+    /*height: 470px;*/
+    background-color: crimson;
+}
+.edit-user-button{
+    background-color: mediumorchid;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    border: none;
+}
+.edit-user-button:hover{
+    background-color: violet;
+}
+.errors{
+    margin-left: 210px;
+    color: #fff909;
+}
+.input-photo{
+    width: 400px;
+    height: 25px;
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 10px;
+}
+.user-edit-panel{
+    width: 700px;
+    /*height: 635px;*/
+    margin-left: 34%;
+    /*background-color: #fff909;*/
+}
+#name{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+}
+#subject{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 37%;
+    font-style: italic;
+    text-align: center;
+}
+.input-group{
+    width: 500px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

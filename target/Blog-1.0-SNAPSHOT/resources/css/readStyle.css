@@ -1,0 +1,148 @@
+.read-home-panel{
+    width: 300px;
+    height: 635px;
+    background-color: crimson;
+    border-radius: 2px;
+    margin-left: 1%;
+    margin-right: 100px;
+    float: left;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+.view-article{
+    width: 900px;
+    height: 610px;
+    background-color: crimson;
+    /*margin-top: 10px;*/
+    margin-left: 30%;
+    border-radius: 10px;
+
+}
+.sub{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: #fff909;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+.view-text{
+    width: 880px;
+    height: 450px;
+    font-style: italic;
+    font-size: large;
+    background-color: white;
+    margin-top: 20px;
+    overflow: scroll;
+    text-align: center;
+}
+#comment-button{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.comment-panel{
+    width: 700px;
+    height: 190px;
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    display: none;
+}
+.comment{
+    width:650px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+.read-comments{
+    width: 150px;
+    height: 40px;
+    margin-left: 500px;
+    margin-top: 10px;
+    background-color: #fff909;
+    border-radius: 10px;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    border: none;
+}
+.name-user{
+    background-color: darkgray;
+    width: 180px;
+    margin-left: 15px;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+.mark-in-comment{
+    width: 24px;
+    height: 24px;
+    margin-top: 67px;
+    margin-left: 2px;
+    float: left;
+    border-radius: 100%;
+    background-color:darkgray;
+}
+#add-comment{
+    margin-top: 17px;
+    /*margin-left: 10px;*/
+}
+.add-comment-panel{
+    width: 700px;
+    height: 210px;
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    display: none;
+}
+.mark{
+    border-radius: 20px;
+    margin-left: 500px;
+}
+.add-comment{
+    width:650px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.nothing{
+    width: 10px;
+    height: 7px;
+}
+.button-add-comment{
+    background-color: #fff909;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 500px;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+#logout1{
+    margin-top: 10px;
+    margin-left: 1%;
+}
+#home{
+    margin-top: 40%;
+    margin-left: 1%;
+}

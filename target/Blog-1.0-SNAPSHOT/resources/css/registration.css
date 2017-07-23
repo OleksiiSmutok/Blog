@@ -1,0 +1,79 @@
+body{
+    background-image: url("/resources/img/background2.jpg");
+}
+.registration-form{
+    background-color: crimson;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.input-group{
+    width: 440px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /*margin-left: 55px;*/
+    float: right;
+}
+.button-submit{
+    background-color: mediumorchid;
+    border-radius: 3px;
+    height: 40px;
+    width: 160px;
+    color: aliceblue;
+    border: none;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.button-submit:hover{
+    background-color: hotpink;
+}
+.login-text{
+    text-align: center;
+    color: white;
+    cursor: default;
+}
+a{
+    text-decoration: none;
+}
+.errors{
+    margin-left: 210px;
+    color: #fff909;
+}
+
+.icon{
+    float: left;
+}
+.fa-user{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.fa-user-circle-o {
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.fa-envelope-o{
+    margin-top: 18px;
+    margin-left: 12px;
+}
+.fa-mobile{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.fa-sign-in{
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.fa-lock{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+/*.input{*/
+    /*margin-top: 15px;*/
+/*}*/
+

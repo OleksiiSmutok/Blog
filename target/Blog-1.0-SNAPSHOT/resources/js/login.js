@@ -1,0 +1,7 @@
+$(".registration-text").ondblclick(function () {
+
+})
+
+
+
+
