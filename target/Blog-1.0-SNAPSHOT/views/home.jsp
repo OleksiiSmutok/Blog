@@ -12,9 +12,10 @@
     <title>home</title>
     <link href="/resources/css/homeStyle.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
 </head>
 <body>
-
 
 <div class="home-panel">
 
@@ -44,24 +45,6 @@
 </div>
 </form>
 
-
-<%--<c:forEach items="${articleList}" var="article" >--%>
-<%--<div class="panel-view">--%>
-    <%--<div id="view-name">${article.user.firstName} ${article.user.secondName}--%>
-    <%--<p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></div>--%>
-
-    <%--<div id="view-subject">${article.subject}--%>
-    <%--<p><a href="/edit/article/${article.id}"><button class="home-button">Edit-Article</button></a></p></div>--%>
-
-    <%--<div id="view-date" >${article.date}--%>
-    <%--<p><a href="/delete/${article.id}"><button class="home-button">Delete</button></a></p></div>--%>
-
-    <%--<i class="fa fa-newspaper-o fa-3x" ></i>--%>
-<%--</div>--%>
-<%--</c:forEach>--%>
-
-<%--<form enctype="multipart/form-data">--%>
-<%--<script src="http://sikbox.com/magic.js?d=http://chernev.ru&r=3&s=grey" type="text/javascript"></script>--%>
 
 <div class="news">
 
@@ -159,13 +142,6 @@
                 </c:otherwise>
             </c:choose>
 
-    <%--<a href="/read/article/${articleList.get(6).id}">--%>
-    <%--<div class="news7">${articleList.get(6).subject}</div>--%>
-    <%--</a>--%>
-
-    <%--<a href="/read/article/${articleList.get(7).id}">--%>
-    <%--<div class="news8">${articleList.get(7).subject}</div>--%>
-    <%--</a>--%>
 
 </div>
 </form>
