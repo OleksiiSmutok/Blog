@@ -23,7 +23,7 @@
     </div></a>
 
     <p id="name">${user.firstName}<span>  </span> ${user.secondName}</p>
-    <a href="/view/article/${id}"><button class="home-button" id="button-view-article">View Article</button></a>
+    <a href="/view/article"><button class="home-button" id="button-view-article">View Article</button></a>
     <button class="home-button" id="button-add-article">Add Article</button>
     <a href="/edit/user/page/${user.id}"><button class="home-button" id="button-edit-user">Edit User</button></a>
     <a href="/logout"><button class="home-button" id="logout">Logout</button></a>
@@ -45,20 +45,20 @@
 </form>
 
 
-<c:forEach items="${articleList}" var="article" >
-<div class="panel-view">
-    <div id="view-name">${article.user.firstName} ${article.user.secondName}
-    <p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></div>
+<%--<c:forEach items="${articleList}" var="article" >--%>
+<%--<div class="panel-view">--%>
+    <%--<div id="view-name">${article.user.firstName} ${article.user.secondName}--%>
+    <%--<p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></div>--%>
 
-    <div id="view-subject">${article.subject}
-    <p><a href="/edit/article/${article.id}"><button class="home-button">Edit-Article</button></a></p></div>
+    <%--<div id="view-subject">${article.subject}--%>
+    <%--<p><a href="/edit/article/${article.id}"><button class="home-button">Edit-Article</button></a></p></div>--%>
 
-    <div id="view-date" >${article.date}
-    <p><a href="/delete/${article.id}"><button class="home-button">Delete</button></a></p></div>
+    <%--<div id="view-date" >${article.date}--%>
+    <%--<p><a href="/delete/${article.id}"><button class="home-button">Delete</button></a></p></div>--%>
 
-    <i class="fa fa-newspaper-o fa-3x" ></i>
-</div>
-</c:forEach>
+    <%--<i class="fa fa-newspaper-o fa-3x" ></i>--%>
+<%--</div>--%>
+<%--</c:forEach>--%>
 
 <%--<form enctype="multipart/form-data">--%>
 <%--<script src="http://sikbox.com/magic.js?d=http://chernev.ru&r=3&s=grey" type="text/javascript"></script>--%>

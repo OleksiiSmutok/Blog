@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -10,6 +11,8 @@
 <head>
     <title>View</title>
     <link rel="stylesheet" href="/resources/css/homeStyle.css">
+    <link rel="stylesheet" href="/resources/css/viewArticle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -20,11 +23,26 @@
     </div></a>
 
     <p id="name">${user.firstName}<span>  </span> ${user.secondName}</p>
-    <button class="home-button" id="button-view-article">View Article</button>
-    <button class="home-button" id="button-add-article">Add Article</button>
-    <a href="/edit/user/page/${user.id}"><button class="home-button" id="button-edit-user">Edit User</button></a>
+    <a href="/"><button class="home-button-a">Home</button></a>
     <a href="/logout"><button class="home-button" id="logout">Logout</button></a>
 </div>
+
+<c:forEach items="${articleList}" var="article" >
+    <div class="panel-view">
+        <div id="view-name">${article.user.firstName} ${article.user.secondName}
+            <p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></div>
+
+        <div id="view-subject">${article.subject}
+            <p><a href="/edit/article/${article.id}"><button class="home-button">Edit-Article</button></a></p></div>
+
+        <div id="view-date" >${article.date}
+            <p><a href="/delete/${article.id}"><button class="home-button">Delete</button></a></p></div>
+
+        <i class="fa fa-newspaper-o fa-3x" ></i>
+    </div>
+</c:forEach>
+
+<script src="/resources/js/jquery-3.2.1.min.js"></script>
 
 </body>
 </html>

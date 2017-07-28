@@ -54,9 +54,12 @@ public class BaseController {
         model.addAttribute("user",user);
         return "readArticle";
     }
-    @RequestMapping(value = "/view/article/{id}",method = RequestMethod.GET)
-    public String viewArticle(@PathVariable Integer id, Model model,Principal principal){
+    @RequestMapping(value = "/view/article",method = RequestMethod.GET)
+    public String viewArticle(Model model,Principal principal){
         User user = userService.findByLogin(principal.getName());
+        List<Article> articleList = articleService.findAll();
+        Collections.reverse(articleList);
+        model.addAttribute("articleList",articleList);
         model.addAttribute("user",user);
      return "viewArticle";
     }
