@@ -33,7 +33,7 @@
         <form:errors cssClass="errors" path="email"/>
         <div class="input">
             <i class="fa fa-envelope-o fa-2x icon"></i>
-            <form:input cssClass="input-group" path="email" placeholder="Email"/>
+            <form:input cssClass="input-group" path="email" placeholder="gmail"/>
         </div>
 
         <form:errors cssClass="errors" path="phone"/>

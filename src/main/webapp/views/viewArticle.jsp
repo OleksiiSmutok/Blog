@@ -30,7 +30,7 @@
 <c:forEach items="${articleList}" var="article" >
     <div class="panel-view">
         <div id="view-name">${article.user.firstName} ${article.user.secondName}
-            <p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></div>
+            <p><a href="/read/article/${article.id}"><button class="home-button" >Read Article</button></a></p></div>
 
         <div id="view-subject">${article.subject}
             <p><a href="/edit/article/${article.id}"><button class="home-button">Edit-Article</button></a></p></div>

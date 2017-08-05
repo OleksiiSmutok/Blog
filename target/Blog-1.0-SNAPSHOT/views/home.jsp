@@ -137,7 +137,7 @@
                 </c:when>
                 <c:otherwise>
                     <div class="news6">
-                        <div class="news-photo6"></div>
+                        <DIV CLASS="NEWS-PHOTO6"></DIV>
                     </div>
                 </c:otherwise>
             </c:choose>
